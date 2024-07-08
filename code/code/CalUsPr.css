@@ -1,0 +1,19 @@
+#topic{
+    text-align:center;
+    width:1250px;
+    font-size: 20px;
+  }
+  .clr, .tr1, .td1{
+    text-align:center;
+    width:1250px;
+    font-size: 20px;
+  }
+  .td2{
+    text-align:center;
+    width:1250px;
+    font-size: 20px;
+  }
+  .tr1,.td1,.td2{
+    border:#111 3px solid ;
+    background-color: #cbcaca;
+  }

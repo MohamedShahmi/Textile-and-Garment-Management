@@ -1,0 +1,42 @@
+.width-container{
+    display:flex;
+}
+
+.card-left{
+    flex: 1;
+}
+
+.card-right{
+    flex: 1;
+}
+
+.card{
+    padding: 20px;
+    margin: 20px;
+    border: 2px black solid;
+    display: flex;
+    width: 50%;
+}
+
+.box-left{
+    flex: 1;
+    
+}
+
+.box-right{
+    flex: 1;
+}
+
+.styled-button{
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 6px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}

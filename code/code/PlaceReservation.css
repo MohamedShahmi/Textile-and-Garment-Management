@@ -1,0 +1,28 @@
+#pay{
+  background-color: #adadad;
+  display: inline-block;
+  font-size: 20px;
+  border:2px black solid;
+}
+.pay1{
+  text-align:center;
+  width:1250px;
+  font-size: 20px;
+}
+#pay2{
+  background-color: #adadad;
+  font-size: 28px;
+  border:2px black solid;
+}
+.pay2{
+  text-align:center;
+  width:1250px;
+  font-size: 20px;
+}
+#pay3{
+  text-align:center;
+  width:1250px;
+  font-size: 28px;
+  background-color: #adadad;
+  border:2px black solid;
+}

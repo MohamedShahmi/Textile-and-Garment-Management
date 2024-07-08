@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Payment</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+	<script src="assets/js/credit card.js"></script>
+ 
+    <script>
+    
+        document.addEventListener("click", function (event) {
+        var dropdowns = document.getElementsByClassName("dropdown");
+        for (var i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (!openDropdown.contains(event.target)) {
+            openDropdown.style.display = "none";
+            }
+        }
+        });
+    </script>
+</head>
+<body>
+    <nav>
+		<ul>
+			<li class="logo"><a href=""><img src="assets/images/logo.jpg" alt="shop-website"></a></li>
+			<li class="nav-item" style="padding-left:50px"><a href="home.html">Home</a></li>
+			<li class="nav-item">
+				<a href="newarrivals.html">New Arrivals</a>
+					<ul class="dropdown">
+						<li><a href="newarrivals.html#t-shirt-id">T-Shirt</a></li>
+						<li><a href="newarrivals.html#jeans-id">Jeans</a></li>
+						<li><a href="newarrivals.html#dresses-id">Women Dresses</a></li>
+					</ul>
+			</li>
+			<li class="nav-item"><a href="aboutus.html">About</a></li>
+			<li class="nav-item"><a href="contact.html">Contact</a></li>
+			<li class="nav-item"><a href="login.html">Login</a></li>
+			<li class="nav-item" style="padding-left: 300px; width:180px"><input type="text" placeholder="Search" style="width:200px"></li>
+			<img src="assets/images/search-icon-png-9993.png" width="15px" style="padding-left: 30px;">
+			<li class="nav-item"> </li>
+			<a href="Cart.html">
+			  <img style="position:relative; top: 10px;padding-left: 360px;" src="assets/images/black-shopping-cart-icon-22.png" width="30px">
+			</a>
+			<a href="profile.html">
+			  <img style="position:relative; top: 10px;padding-left: 20px;" src="assets/images/404-4042710_circle-profile-picture-png-transparent-png-removebg-preview.png" width="30px">
+			</a>
+		</ul>
+	</nav>
+	
+
+				<form id="carDetails" onsubmit ="paymentSu()" style="width:80%;border:1px solid;padding:40px;margin:70px;">
+					<h1 style="color:red;" align="center">CUSTOMER CARD PAYMENT DETAILS</h1>
+
+					<fieldset id="enterDetails" style ="width:80%;margin:40px;margin-left:100px">
+						<legend id="creditDetails" style ="color:red;">Enter card details</legend>
+						<div style="padding:20px;">
+							Card number<span style="color:red">*</span>(type as in the sample format)<br><br>
+							<input id="cardNo" type="text" pattern="[0-9\s]{13,19}" autocomplete="cc-number" size="60" value ="" placeholder="xxxx xxxx xxxx xxxx" required><br>
+							<img src="assets/images/pay.png" width="240px" style="padding-left: 0px;"><br><br>
+							
+							Card holder name<span style="color:red">*</span><br><br>
+							<input type="text" id="cardName" size="60" placeholder="Y.L.JAYASINGHE" required value =""><br><br>
+							
+							Expiry date<span style="color:red">*</span>(please enter valid date)<br><br>
+							<input type="date" id="expDate" style="width:57%" required><br><br>
+							
+							Card security code<span style="color:red">*</span>(Digits on the back of the card)<br><br>
+							<input type="tel" id="csc" pattern="[0-9]{3,4}" maxlength="4" size="40" required>
+							<img src="assets/images/PAY1.png" style="position:absolute" width="30px"><br><br><br><br>
+							
+
+							<button type ="submit" id="conPayment" onclick="checkPayment()" value="" style="border-radius:6px;width:200px;margin:30px;margin-left:300px;padding:10px;border:none;background-color:#6495ED;color:White;">CONFIRM PAYMENT</button>
+							
+						</div>
+					</fieldset>
+				</form>
+				
+				<footer class="site-footer">
+					<div class="container">
+					  
+						
+			
+						<div class="col-xs-6 col-md-3">
+						  <h6>Quick Links</h6>
+						  <br>
+						  <ul class="footer-links">
+							<li><a href="aboutus.html">About Us</a></li>
+							<li><a href="contact.html">Contact Us</a></li>
+							<li><a href="home.html">Home</a></li>
+							<li><a href="Cart.html">Cart</a></li>
+							<li><a href="newarrivals.html">New Arrivals</a></li>
+						  </ul>
+						<br>  
+						</div>
+					  </div>
+					  <hr>
+					  <br>
+					</div>
+					<div class="container">
+					  <div class="row">
+						<div class="col-md-8 col-sm-6 col-xs-12">
+						  <p class="copyright-text">Copyright &copy; 2023 All Rights Reserved by us
+					   
+						  </p>
+						</div>
+			
+				<div class="col-md-4 col-sm-6 col-xs-12">
+					<ul class="social-icons">
+					  <li><a class="facebook" href="#"><img src="assets/images/fbook-removebg-preview.png" alt="Facebook" style="width: 40px;"></a></li>
+					  
+					  <li><a class="twitter" href="#"><img src="assets/images/download__1_-removebg-preview.png" alt="twitter" style="width: 50px;"></a></li>
+					  <li><a class="linkedin" href="#"><img src="assets/images/instagram-logo-removebg-preview.png" alt="insta" style="width: 37px;"></a></li>   
+					</ul>
+				  </div>
+				  
+				  
+					  </div>
+					</div>
+				</footer>
+	   
+</body>
+</html>

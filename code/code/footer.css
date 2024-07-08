@@ -1,0 +1,18 @@
+.footer{
+    background-color:rgb(55, 55, 55) ;
+    width:1250px;
+    font-size: 20px;
+    color: antiquewhite ;
+}
+#td1{
+text-align:left;
+width:150px;
+}
+#td2{
+    text-align:center;
+}
+#hotline{
+    background-color: black;
+    color:antiquewhite;
+}
+  

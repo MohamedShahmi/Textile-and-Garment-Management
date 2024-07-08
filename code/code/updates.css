@@ -1,0 +1,18 @@
+h2{
+    text-align: center;
+    background-color: #bdbdbd;
+  }
+  .tab1{
+    text-align:center;
+    width:1250px;
+    font-size: 20px;
+  }
+  .update{
+    text-align:center;
+    width:1250px;
+    font-size: 20px;
+  }
+  .tr1, .td1{
+    border:#111 3px solid ;
+    background-color: #424141;
+  }

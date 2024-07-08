@@ -1,0 +1,51 @@
+.container2 {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile {
+    text-align: center;
+}
+
+.profile img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.profile h2 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.profile p {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.details h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.details p {
+    margin-bottom: 10px;
+}
+
+.details ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.details li {
+    margin-bottom: 5px;
+}

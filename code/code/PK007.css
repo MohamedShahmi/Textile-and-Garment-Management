@@ -1,0 +1,39 @@
+.row1{
+    display: inline-block;
+  }
+  .button{
+    text-align:right;
+    width:1250px;
+    font-size: 20px;
+  }
+  .checked {
+    color: orange;
+}
+.more{
+    text-align:center;
+    width:1250px;
+    font-size: 20px;
+  }
+#more{
+    background-color: #adadad;
+    border:2px black solid;
+}
+#td1{
+    text-align:center;
+    width:600px;
+    font-size: 20px
+}
+#td2{
+    text-align:center;
+    width:600px;
+    font-size: 20px
+}
+.google-map {
+    padding-bottom: 50%;
+    position: relative;
+}
+
+.google-map iframe {
+    height:200px;
+    width: 200px;  
+}

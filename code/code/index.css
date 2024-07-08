@@ -1,0 +1,21 @@
+.row1{
+    display: inline-block;
+  }
+  #Discription{
+    font-size: 28px;
+    background-color: #959494;
+  }
+  h2{
+    text-align: center;
+    background-color: #bdbdbd;
+  }
+  .table1{
+    text-align:center;
+    width:1250px;
+    font-size: 20px;
+  }
+  #table2{
+    text-align:center;
+    width:1250px;
+    font-size: 20px;
+  }

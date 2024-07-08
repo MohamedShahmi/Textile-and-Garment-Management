@@ -1,0 +1,19 @@
+Project group ID :- MLB_09.02_10
+Batch number :- 09.02
+Topic :- Textile and garment management system
+
+Member details:-
+ 1)Ifaz Ahamed M.J 
+   Implemented function:-Login page and Profile page
+
+ 2)Riskhan S.M
+   Implemented function:-About us page and Contact page
+
+ 3)Shahmi M.T.M
+   Implemented function:-Billing information page and Cart page
+
+ 4)Thuvarahan Nagaselvan
+   Implemented function:-Home page and New arrival page
+
+ 5)Yashodha Lasith Jayasinghe
+   Implemented function:-New user page and Credit card page

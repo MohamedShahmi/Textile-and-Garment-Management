@@ -1,0 +1,19 @@
+#topic{
+    text-align:center;
+    width:1250px;
+    font-size: 20px;
+  }
+  .accounts{
+    text-align:center;
+    width:1250px;
+    font-size: 20px;
+  }
+  .tr1, .td1{
+    border:#111 3px solid ;
+    background-color: #bbb9b9;
+  }
+  .button{
+    text-align:right;
+    width:1250px;
+    font-size: 20px;
+  }

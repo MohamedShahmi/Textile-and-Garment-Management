@@ -1,0 +1,281 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    
+    <title>New Arrivals</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <!-- Add custom css files here -->
+    <link rel="stylesheet" href="assets/css/newarrivals.css">
+    <script>
+        
+        // script which reacts on on-click event on 
+        document.addEventListener("click", function (event) {
+        var dropdowns = document.getElementsByClassName("dropdown");
+        for (var i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (!openDropdown.contains(event.target)) {
+            openDropdown.style.display = "none";
+            }
+        }
+        });
+        
+    </script>
+    <!-- Add custom javscript files here -->
+</head>
+<body>
+    <form action="assets/php/newarrival.php" >
+  <!-- Insert html code for content here -->
+    <nav>
+        <ul>
+            <li class="logo"><a href=""><img src="assets/images/logo.jpg" alt="shop-website"></a></li>
+            <li class="nav-item" style="padding-left:50px"><a href="home.html">Home</a></li>
+            <li class="nav-item">
+                <a href="newarrivals.html">New Arrivals</a>
+                    <ul class="dropdown">
+                        <li><a href="newarrivals.html#t-shirt-id">T-Shirt</a></li>
+                        <li><a href="newarrivals.html#jeans-id">Jeans</a></li>
+                        <li><a href="newarrivals.html#dresses-id">Women Dresses</a></li>
+                    </ul>
+            </li>
+            <li class="nav-item"><a href="aboutus.html">About</a></li>
+            <li class="nav-item"><a href="contact.html">Contact</a></li>
+            <li class="nav-item"><a href="login.html">Login</a></li>
+            <li class="nav-item" style="padding-left: 300px; width:180px"><input type="text" placeholder="Search" style="width:200px"></li>
+            <img src="assets/images/search-icon-png-9993.png" width="15px" style="padding-left: 30px;">
+            <li class="nav-item"> </li>
+            <a href="Cart.html">
+              <img style="position:relative; top: 10px;padding-left: 360px;" src="assets/images/black-shopping-cart-icon-22.png" width="30px">
+            </a>
+            <a href="profile.html">
+              <img style="position:relative; top: 10px;padding-left: 20px;" src="assets/images/404-4042710_circle-profile-picture-png-transparent-png-removebg-preview.png" width="30px">
+            </a>
+        </ul>
+    </nav>
+
+<!-- Insert code for content here -->
+
+
+<!-- New Arrival Banner -->
+<div>
+    <img src="assets/images/new.jpg" alt="New Arrivals" style="width:98.85vw;">
+</div>
+
+
+
+
+<h1 style="padding: 20px;" id="t-shirt-id">T-Shirts</h1>
+
+<div class="width-container">
+
+    
+    <div class="card-left card">
+        <div class="box-left">
+            <img src="assets/images/tshirt1-removebg-preview.png" alt="t-shirt" width="230px">     
+        </div>
+        <div class="box-right">
+            <p><b>Black T-Shirt</b></p>
+            <br>
+            <p><b>Rs.1,000.00</b></p>
+            <br>
+            <p><b>Size</b> 
+                
+                <select>
+                    <option>S</option>
+                    <option>M</option>
+                    <option>L</option>
+                    <option>XL</option>
+                </select>
+            </p>
+            <br>
+            <input type="number" placeholder="Quantity" style="height: 25px;">
+            <input class="styled-button" type="submit" value="Add to cart">
+        </div>
+    </div>
+
+
+    <div class="card-right card">
+        <div class="box-left">
+            <img src="assets/images/tshirt2-removebg-preview.png" alt="t-shirt" width="230px">     
+        </div>
+        <div class="box-right">
+            <p><b>Angry Gamer T-Shirt</b></p>
+            <br>
+            <p><b>Rs.1,500.00</b></p>
+            <br>
+            <p><b>Size</b> 
+                
+                <select>
+                    <option>S</option>
+                    <option>M</option>
+                    <option>L</option>
+                    <option>XL</option>
+                </select>
+            </p>
+            <br>
+            <input type="number" placeholder="Quantity" style="height: 25px;">
+            <input class="styled-button" type="submit" value="Add to cart">
+        </div>
+    </div>
+</div>
+
+
+<h1 style="padding: 20px;" id="jeans-id">Jeans</h1>
+
+<div class="width-container">
+
+    
+    <div class="card-left card">
+        <div class="box-left">
+            <img src="assets/images/jeans1-removebg-preview.png" alt="jeans" width="200px">     
+        </div>
+        <div class="box-right">
+            <p><b>Blue Jeans</b></p>
+            <br>
+            <p><b>Rs.3,800.00</b></p>
+            <br>
+            <p><b>Size</b> 
+                
+                <select>
+                    <option>S</option>
+                    <option>M</option>
+                    <option>L</option>
+                    <option>XL</option>
+                </select>
+            </p>
+            <br>
+            <input type="number" placeholder="Quantity" style="height: 25px;">
+            <input class="styled-button" type="submit" value="Add to cart">
+        </div>
+    </div>
+
+
+    <div class="card-right card">
+        <div class="box-left">
+            <img src="assets/images/jeans2-removebg-preview.png" alt="jeans" width="230px">     
+        </div>
+        <div class="box-right">
+            <p><b>Black Jeans</b></p>
+            <br>
+            <p><b>Rs.4,000.00</b></p>
+            <br>
+            <p><b>Size</b> 
+                
+                <select>
+                    <option>S</option>
+                    <option>M</option>
+                    <option>L</option>
+                    <option>XL</option>
+                </select>
+            </p>
+            <br>
+            <input type="number" placeholder="Quantity" style="height: 25px;">
+            <input class="styled-button" type="submit" value="Add to cart">
+        </div>
+    </div>
+</div>
+
+
+<h1 style="padding: 20px;" id="dresses-id">Women Dresses</h1>
+
+<div class="width-container">
+
+    
+    <div class="card-left card">
+        <div class="box-left">
+            <img src="assets/images/wdress-removebg-preview.png" alt="dress" width="230px">     
+        </div>
+        <div class="box-right">
+            <p><b>Red & White Top</b></p>
+            <br>
+            <p><b>Rs.4,000.00</b></p>
+            <br>
+            <p><b>Size</b> 
+                
+                <select>
+                    <option>S</option>
+                    <option>M</option>
+                    <option>L</option>
+                    <option>XL</option>
+                </select>
+            </p>
+            <br>
+            <input type="number" placeholder="Quantity" style="height: 25px;">
+            <input class="styled-button" type="submit" value="Add to cart">
+        </div>
+    </div>
+
+
+    <div class="card-right card">
+        <div class="box-left">
+            <img src="assets/images/wdress2-removebg-preview.png" alt="dress" width="230px">     
+        </div>
+        <div class="box-right">
+            <p><b>Gold Top</b></p>
+            <br>
+            <p><b>Rs.10,000.00</b></p>
+            <br>
+            <p><b>Size</b> 
+                
+                <select>
+                    <option>S</option>
+                    <option>M</option>
+                    <option>L</option>
+                    <option>XL</option>
+                </select>
+            </p>
+            <br>
+            <input type="number" placeholder="Quantity" style="height: 25px;">
+            <input class="styled-button" type="submit" value="Add to cart">
+        </div>
+    </div>
+</div>
+
+
+
+<footer class="site-footer">
+    <div class="container">
+      
+        
+
+        <div class="col-xs-6 col-md-3">
+          <h6>Quick Links</h6>
+          <br>
+          <ul class="footer-links">
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="Cart.html">Cart</a></li>
+            <li><a href="newarrivals.html">New Arrivals</a></li>
+          </ul>
+        <br>  
+        </div>
+      </div>
+      <hr>
+      <br>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-sm-6 col-xs-12">
+          <p class="copyright-text">Copyright &copy; 2023 All Rights Reserved by us
+       
+          </p>
+        </div>
+
+<div class="col-md-4 col-sm-6 col-xs-12">
+    <ul class="social-icons">
+      <li><a class="facebook" href="#"><img src="assets/images/fbook-removebg-preview.png" alt="Facebook" style="width: 40px;"></a></li>
+      
+      <li><a class="twitter" href="#"><img src="assets/images/download__1_-removebg-preview.png" alt="twitter" style="width: 50px;"></a></li>
+      <li><a class="linkedin" href="#"><img src="assets/images/instagram-logo-removebg-preview.png" alt="insta" style="width: 37px;"></a></li>   
+    </ul>
+  </div>
+  
+  
+      </div>
+    </div>
+</footer>
+</form>   
+</body>
+</html>

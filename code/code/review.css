@@ -1,0 +1,11 @@
+#review{
+    text-align:center;
+    width:1250px;
+    font-size: 20px;
+  }
+  .heading{
+    font-size: 26px;
+  }
+  .checked {
+    color: orange;
+}
